@@ -1,16 +1,24 @@
-// AJAX to class JSON
-
-
+const getStudents = async (url) => {
+    try {
+        const students = await $.ajax(url);
+        return students;
+    } catch (error) {
+        console.log(error);
+    }
+};
 
 // Populate variables 
-
 let studentCard = ` 
-<div class="card">
+`;
+
+let printStudent = (student) => {
+    studentBox += `<div class="card">
     <div class="card-image">
         <figure class="image is-4by3">
             <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
         </figure>
     </div>
+    ${console.log("Hi")}
     <div class="card-content">
         <div class="media">
             <div class="media-left">
@@ -34,7 +42,14 @@ let studentCard = `
         </div>
     </div>
 </div>`;
+};
+
+let printStudents = getStudents('students.json').then((results)=>{console.log(results)});
+
+console.log(printStudents);
+
+//printStudents.map(student => studentBox += )
 
 let studentBox = document.getElementById('studentBox');
 
-studentBox.innerHTML += studentCard;
+//studentBox.innerHTML += getStudents('students.json');

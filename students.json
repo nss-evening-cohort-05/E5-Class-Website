@@ -1,0 +1,11 @@
+{
+    "students": [
+        {
+            "name": "Student Name",
+            "bio": "Bio goes Here",
+            "linkedin": "linkedIn",
+            "portfolio_site": "url",
+            "github": "github"
+        }
+    ]
+}
