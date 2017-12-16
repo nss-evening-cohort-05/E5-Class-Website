@@ -1,0 +1,36 @@
+{
+    "students": [
+        {
+            "name": "Student Name",
+            "tagline": "short tagline",
+            "bio": "bio goes Here",
+            "linkedin": "linkedIn",
+            "portfolio_site": "url",
+            "github": "github"
+        },
+        {
+            "name": "Student Name",
+            "tagline": "short tagline",
+            "bio": "bio goes Here",
+            "linkedin": "linkedIn",
+            "portfolio_site": "url",
+            "github": "github"
+        },
+        {
+            "name": "Student Name",
+            "tagline": "short tagline",
+            "bio": "bio goes Here",
+            "linkedin": "linkedIn",
+            "portfolio_site": "url",
+            "github": "github"
+        },
+        {
+            "name": "Student Name",
+            "tagline": "short tagline",
+            "bio": "bio goes Here",
+            "linkedin": "linkedIn",
+            "portfolio_site": "url",
+            "github": "github"
+        }
+    ]
+}
