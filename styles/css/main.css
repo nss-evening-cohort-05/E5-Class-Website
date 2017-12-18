@@ -87,3 +87,10 @@
   width: 300px;
   margin: 5px;
   flex-grow: 1; }
+
+@media screen and (max-width: 1160px) {
+  .top h1 {
+    font-size: 35px;
+    padding: 5px; }
+  .top nav a {
+    font-size: 10px; } }

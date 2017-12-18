@@ -27,6 +27,8 @@ let printStudent = (student) => {
         <div class="content">
             <p>${student.bio}</p>
             <br>
+            <div class="icon-links">
+            </div>
         </div>
     </div>
 </div>`;

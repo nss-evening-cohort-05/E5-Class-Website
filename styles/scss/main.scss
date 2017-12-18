@@ -1,4 +1,4 @@
-$class-photo-url: '../../img/Class-Photo.jpg';
+    $class-photo-url: '../../img/Class-Photo.jpg';
 $nss-red: #f0452d;
 .class-photo {
     min-width: 100vh;
@@ -73,10 +73,12 @@ $nss-red: #f0452d;
             color: black;
             padding: 10px;
             margin: 0 -5px;
-            &:hover{
+            &:hover {
                 color: white;
             }
-            &:hover, &:visited, &:active{
+            &:hover,
+            &:visited,
+            &:active {
                 text-decoration: none;
             }
         }
@@ -106,4 +108,18 @@ $nss-red: #f0452d;
     width: 300px;
     margin: 5px;
     flex-grow: 1;
+}
+
+@media screen and (max-width: 1160px) {
+    .top {
+        h1 {
+            font-size: 35px;
+            padding: 5px;
+        }
+        nav{
+            a{
+                font-size: 10px;
+            }
+        }
+    }
 }
