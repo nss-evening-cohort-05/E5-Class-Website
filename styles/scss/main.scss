@@ -1,14 +1,97 @@
-.class-photo{
+$class-photo-url: '../../img/Class-Photo.jpg';
+$nss-red: #f0452d;
+.class-photo {
     min-width: 100vh;
     height: auto;
+    position: relative;
 }
 
-.class-header{
-    
+.top-nav-wrapper {
+    background: url('https://raw.githubusercontent.com/nss-evening-cohort-05/E5-Class-Website/master/img/Class-Photo.jpg') no-repeat center center;
+    background-size: cover;
+    height: 600px;
+    .navbar {
+        width: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        padding: 10px 20px;
+        justify-content: space-between;
+        .nav-left {
+            align-self: left;
+        }
+        .nav-right {
+            align-self: right;
+            padding: 10px 0; //display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            text-align: right;
+            align-items: right;
+            a {
+                color: $nss-red;
+                text-decoration: none;
+                margin: 0px 30px;
+                white-space: nowrap
+            }
+        }
+    }
+    .e5-class-header {
+        color: $nss-red;
+        font-size: 1.5rem;
+        white-space: nowrap
+    }
 }
 
-.student-wrapper{
-    padding: 0px;
+.top {
+    position: relative;
+    margin: 0 auto;
+    clear: left;
+    height: auto;
+    z-index: 0;
+    text-align: center;
+    h1 {
+        display: inline-block;
+        width: 50%;
+        margin: 0 auto;
+        font-family: 'Bungee Inline', cursive;
+        font-size: 55px;
+        color: #eadc62;
+        background-color: #585858;
+        border-radius: 0px 0px 5px 5px;
+        margin-bottom: 0;
+        padding: 10px;
+    }
+    nav {
+        margin: -5px 0 5% 0;
+        text-align: center;
+        a {
+            display: inline-block;
+            font-family: 'Bungee Inline', cursive;
+            background-color: #585858;
+            border-color: #585858;
+            border-radius: 0px 5px 5px 5px;
+            color: black;
+            padding: 10px;
+            margin: 0 -5px;
+            &:hover{
+                color: white;
+            }
+            &:hover, &:visited, &:active{
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.class-bio {
+    //background-color: #f0452d;
+    background-image: -webkit-linear-gradient(left, #f0452d 0%, #f26c2d 100%);
+    background-image: linear-gradient(to right, #f0452d 0%, #f26c2d 100%);
+    color: white;
+}
+
+.student-wrapper {
+    padding: 10px;
 }
 
 #studentBox {
@@ -19,9 +102,8 @@
     flex-wrap: wrap;
 }
 
-.student-card{
+.student-card {
     width: 300px;
     margin: 5px;
     flex-grow: 1;
 }
-
