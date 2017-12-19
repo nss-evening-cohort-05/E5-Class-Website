@@ -55,24 +55,23 @@ $nss-red: #f0452d;
         margin: 0 auto;
         font-family: 'Bungee Inline', cursive;
         font-size: 55px;
-        color: #eadc62;
+        color: $nss-red;
         background-color: #585858;
         border-radius: 0px 0px 5px 5px;
+        border: 1px solid $nss-red;
         margin-bottom: 0;
         padding: 10px;
     }
     nav {
-        margin: -5px 0 5% 0;
+        margin: -1px 0 5% 0;
         text-align: center;
         a {
             display: inline-block;
             font-family: 'Bungee Inline', cursive;
             background-color: #585858;
-            border-color: #585858;
-            border-radius: 0px 5px 5px 5px;
             color: black;
             padding: 10px;
-            margin: 0 -5px;
+            margin: 0px -5px;
             &:hover {
                 color: white;
             }
@@ -81,6 +80,16 @@ $nss-red: #f0452d;
             &:active {
                 text-decoration: none;
             }
+        }
+        .left-link{
+            border-left: 1px solid $nss-red;
+            border-bottom: 1px solid $nss-red;
+            border-radius: 0px 0px 0px 5px;
+        }
+        .right-link{
+            border-right: 1px solid $nss-red;
+            border-bottom: 1px solid $nss-red;
+            border-radius: 0px 0px 5px 0px;
         }
     }
 }
@@ -94,6 +103,25 @@ $nss-red: #f0452d;
 
 .technologies {
     text-align: right;
+    padding: 10px;
+}
+
+.tech-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px;
+    img {
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+    }
+    .entity-logo {
+        height: 100px;
+        width: auto;
+    }
 }
 
 .student-wrapper {

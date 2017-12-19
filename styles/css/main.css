@@ -46,27 +46,34 @@
     margin: 0 auto;
     font-family: 'Bungee Inline', cursive;
     font-size: 55px;
-    color: #eadc62;
+    color: #f0452d;
     background-color: #585858;
     border-radius: 0px 0px 5px 5px;
+    border: 1px solid #f0452d;
     margin-bottom: 0;
     padding: 10px; }
   .top nav {
-    margin: -5px 0 5% 0;
+    margin: -1px 0 5% 0;
     text-align: center; }
     .top nav a {
       display: inline-block;
       font-family: 'Bungee Inline', cursive;
       background-color: #585858;
-      border-color: #585858;
-      border-radius: 0px 5px 5px 5px;
       color: black;
       padding: 10px;
-      margin: 0 -5px; }
+      margin: 0px -5px; }
       .top nav a:hover {
         color: white; }
       .top nav a:hover, .top nav a:visited, .top nav a:active {
         text-decoration: none; }
+    .top nav .left-link {
+      border-left: 1px solid #f0452d;
+      border-bottom: 1px solid #f0452d;
+      border-radius: 0px 0px 0px 5px; }
+    .top nav .right-link {
+      border-right: 1px solid #f0452d;
+      border-bottom: 1px solid #f0452d;
+      border-radius: 0px 0px 5px 0px; }
 
 .class-bio {
   background-image: -webkit-linear-gradient(left, #f0452d 0%, #f26c2d 100%);
@@ -74,7 +81,23 @@
   color: white; }
 
 .technologies {
-  text-align: right; }
+  text-align: right;
+  padding: 10px; }
+
+.tech-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 50px; }
+  .tech-icons img {
+    height: 100px;
+    width: 100px;
+    margin: 10px; }
+  .tech-icons .entity-logo {
+    height: 100px;
+    width: auto; }
 
 .student-wrapper {
   padding: 10px; }
