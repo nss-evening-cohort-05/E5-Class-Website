@@ -6,7 +6,7 @@
 .top-nav-wrapper {
   background: url("https://raw.githubusercontent.com/nss-evening-cohort-05/E5-Class-Website/master/img/Class-Photo.jpg") no-repeat center center;
   background-size: cover;
-  height: 600px; }
+  height: 700px; }
   .top-nav-wrapper .navbar {
     width: 100%;
     position: absolute;
@@ -73,6 +73,9 @@
   background-image: linear-gradient(to right, #f0452d 0%, #f26c2d 100%);
   color: white; }
 
+.technologies {
+  text-align: right; }
+
 .student-wrapper {
   padding: 10px; }
 
@@ -87,6 +90,21 @@
   width: 300px;
   margin: 5px;
   flex-grow: 1; }
+
+.icon-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center; }
+  .icon-links a:hover {
+    text-decoration: none; }
+  .icon-links img {
+    height: 50px;
+    width: 50px; }
+  .icon-links .linkedin-logo {
+    height: 45px;
+    width: 45px; }
 
 @media screen and (max-width: 1160px) {
   .top h1 {

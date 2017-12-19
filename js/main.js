@@ -20,14 +20,16 @@ let printStudent = (student) => {
         <div class="media">
             <div class="media-content">
                 <p class="title is-4">${student.name}</p>
-                <p class="subtitle is-6">@${student.github}</p>
             </div>
         </div>
 
         <div class="content">
-            <p>${student.bio}</p>
+            <!--<p>${student.bio}</p>-->
             <br>
             <div class="icon-links">
+                <a href="${student.github}"><img src="img/Github-Mark.png"></a>
+                <a href="${student.linkedin}"><img class="linkedin-logo" src="img/linkedin-icon.png"/></a>
+                <a href="${student.github}"><img src="img/website-icon.png"/></a>
             </div>
         </div>
     </div>
