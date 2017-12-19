@@ -9,7 +9,7 @@ $nss-red: #f0452d;
 .top-nav-wrapper {
     background: url('https://raw.githubusercontent.com/nss-evening-cohort-05/E5-Class-Website/master/img/Class-Photo.jpg') no-repeat center center;
     background-size: cover;
-    height: 600px;
+    height: 700px;
     .navbar {
         width: 100%;
         position: absolute;
@@ -55,30 +55,41 @@ $nss-red: #f0452d;
         margin: 0 auto;
         font-family: 'Bungee Inline', cursive;
         font-size: 55px;
-        color: #eadc62;
+        color: $nss-red;
         background-color: #585858;
         border-radius: 0px 0px 5px 5px;
+        border: 1px solid $nss-red;
         margin-bottom: 0;
         padding: 10px;
     }
     nav {
-        margin: -5px 0 5% 0;
+        margin: -1px 0 5% 0;
         text-align: center;
         a {
             display: inline-block;
             font-family: 'Bungee Inline', cursive;
             background-color: #585858;
-            border-color: #585858;
-            border-radius: 0px 5px 5px 5px;
             color: black;
             padding: 10px;
-            margin: 0 -5px;
-            &:hover{
+            margin: 0px -5px;
+            &:hover {
                 color: white;
             }
-            &:hover, &:visited, &:active{
+            &:hover,
+            &:visited,
+            &:active {
                 text-decoration: none;
             }
+        }
+        .left-link{
+            border-left: 1px solid $nss-red;
+            border-bottom: 1px solid $nss-red;
+            border-radius: 0px 0px 0px 5px;
+        }
+        .right-link{
+            border-right: 1px solid $nss-red;
+            border-bottom: 1px solid $nss-red;
+            border-radius: 0px 0px 5px 0px;
         }
     }
 }
@@ -88,6 +99,29 @@ $nss-red: #f0452d;
     background-image: -webkit-linear-gradient(left, #f0452d 0%, #f26c2d 100%);
     background-image: linear-gradient(to right, #f0452d 0%, #f26c2d 100%);
     color: white;
+}
+
+.technologies {
+    text-align: right;
+    padding: 10px;
+}
+
+.tech-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px;
+    img {
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+    }
+    .entity-logo {
+        height: 100px;
+        width: auto;
+    }
 }
 
 .student-wrapper {
@@ -106,4 +140,37 @@ $nss-red: #f0452d;
     width: 300px;
     margin: 5px;
     flex-grow: 1;
+}
+
+.icon-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    a:hover {
+        text-decoration: none;
+    }
+    img {
+        height: 50px;
+        width: 50px;
+    }
+    .linkedin-logo {
+        height: 45px;
+        width: 45px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .top {
+        h1 {
+            font-size: 35px;
+            padding: 5px;
+        }
+        nav {
+            a {
+                font-size: 10px;
+            }
+        }
+    }
 }
