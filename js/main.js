@@ -29,7 +29,7 @@ let printStudent = (student) => {
             <div class="icon-links">
                 <a href="${student.github}"><img src="img/Github-Mark.png"></a>
                 <a href="${student.linkedin}"><img class="linkedin-logo" src="img/linkedin-icon.png"/></a>
-                <a href="${student.github}"><img src="img/website-icon.png"/></a>
+                <a href="${student.portfolio_site}"><img src="img/website-icon.png"/></a>
             </div>
         </div>
     </div>
