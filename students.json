@@ -2,12 +2,12 @@
     "students": [
         {
             "name": "Isabel Ramos",
-            "tagline": "short tagline",
-            "bio": "bio goes Here",
+            "tagline": "Designer + Developer",
+            "bio": "Highly creative and insightful designer + developer who combines originality and ability to create succinct, yet interesting, visual media.",
             "photo": "img/students/Isabel1.jpg",
             "alt_photo": "img/students/Isabel2.jpg",
             "linkedin": "https://www.linkedin.com/in/isabelmramos/",
-            "portfolio_site": "url",
+            "portfolio_site": "https://www.baddestbluesdesign.com",
             "github": "https://github.com/isabelramos"
         },
         {
