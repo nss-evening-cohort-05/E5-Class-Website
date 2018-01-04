@@ -1,0 +1,144 @@
+{
+    "students": [
+        {
+            "name": "Isabel Ramos",
+            "tagline": "Designer + Developer",
+            "bio": "Highly creative and insightful designer + developer who combines originality and ability to create succinct, yet interesting, visual media.",
+            "photo": "img/students/Isabel1.jpg",
+            "alt_photo": "img/students/Isabel2.jpg",
+            "linkedin": "https://www.linkedin.com/in/isabelmramos/",
+            "portfolio_site": "http://www.baddestbluesdesign.com",
+            "github": "https://github.com/isabelramos"
+        },
+        {
+            "name": "Thomas Fitzgerald",
+            "tagline": "short tagline",
+            "bio": "bio goes Here",
+            "photo": "img/students/Tom1.jpg",
+            "alt_photo": "img/students/Tom2.jpg",
+            "linkedin": "https://www.linkedin.com/in/tompfitzgerald/",
+            "portfolio_site": "http://www.basictom.com",
+            "github": "https://github.com/basictom"
+        },
+        {
+            "name": "Ellis Thomas",
+            "tagline": "short tagline",
+            "bio": "bio goes Here",
+            "photo": "img/students/Ellis1.jpg",
+            "alt_photo": "img/students/Ellis2.jpg",
+            "linkedin": "https://www.linkedin.com/in/ellis-thomas-26358a124/",
+            "portfolio_site": "url",
+            "github": "https://github.com/ellisthomas"
+        },
+        {
+            "name": "Heather Thacker",
+            "tagline": "short tagline",
+            "bio": "bio goes Here",
+            "photo": "img/students/Heather1.jpg",
+            "alt_photo": "img/students/Heather2.jpg",
+            "linkedin": "https://www.linkedin.com/in/hhthacker",
+            "portfolio_site": "url",
+            "github": "https://github.com/hhthacker"
+        },
+        {
+            "name": "Anessa Ortner",
+            "tagline": "Creative problem solver",
+            "bio": "bio goes Here",
+            "photo": "img/students/Anessa1.jpg",
+            "alt_photo": "img/students/Anessa2.jpg",
+            "linkedin": "https://www.linkedin.com/in/anessa-ortner-5a688391/",
+            "portfolio_site": "url",
+            "github": "https://github.com/anessao"
+        },
+        {
+            "name": "Bao Nguyen",
+            "tagline": "",
+            "bio": "bio goes Here",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Placeholder_no_text.svg/1024px-Placeholder_no_text.svg.png",
+            "alt_photo": "img/students/",
+            "linkedin": "https://www.linkedin.com/in/bao-nguyen-235158105",
+            "portfolio_site": "url",
+            "github": "https://github.com/baonguyen79"
+        },
+        {
+            "name": "Geoff Webb",
+            "tagline": "Code | Hockey | Repeat",
+            "bio": "bio goes Here",
+            "photo": "img/students/Geoff1.jpg",
+            "alt_photo": "img/students/Geoff2.jpg",
+            "linkedin": "https://www.linkedin.com/in/geoff-webb-85637586/",
+            "portfolio_site": "https://webbdm.github.io/React-BioCards",
+            "github": "https://github.com/webbdm"
+        },
+        {
+            "name": "Andrea Finch",
+            "tagline": "",
+            "bio": "bio goes Here",
+            "photo": "img/students/Andrea1.jpg",
+            "alt_photo": "img/students/Andrea2.jpg",
+            "linkedin": "https://www.linkedin.com/in/andreafinch/",
+            "portfolio_site": "url",
+            "github": "https://github.com/aefinch"
+        },
+        {
+            "name": "Dwayne Pate",
+            "tagline": "",
+            "bio": "bio goes Here",
+            "photo": "img/students/Dwayne1.jpg",
+            "alt_photo": "img/students/Dwayne2.jpg",
+            "linkedin": "https://www.linkedin.com/in/dwayne-pate/",
+            "portfolio_site": "url",
+            "github": "https://github.com/drworm75"
+        },
+        {
+            "name": "Bryan Miller",
+            "tagline": "",
+            "bio": "bio goes Here",
+            "photo": "img/students/Brian1.jpg",
+            "alt_photo": "img/students/Brian2.jpg",
+            "linkedin": "https://www.linkedin.com/in/bryan-miller-878b7357/",
+            "portfolio_site": "url",
+            "github": "https://github.com/bryanhmiller"
+        },
+        {
+            "name": "Sharon Smith",
+            "tagline": "",
+            "bio": "bio goes Here",
+            "photo": "img/students/Sharon1.jpg",
+            "alt_photo": "img/students/Sharon2.jpg",
+            "linkedin": "https://www.linkedin.com/in/smithshnash/",
+            "portfolio_site": "url",
+            "github": "https://github.com/SMITHsharon"
+        },
+        {
+            "name": "Latasha Simmons",
+            "tagline": "Critical Thinker",
+            "bio": "Passionate Full Stack developer with a love for coding. I have more than 15 years of experience working in the Healthcare Industry and six years of experience in the Software Industry.",
+            "photo": "img/students/Tasha1.jpg",
+            "alt_photo": "img/students/Tasha2.jpg",
+            "linkedin": "https://www.linkedin.com/in/latasha-simmons-73374766/",
+            "portfolio_site": "url",
+            "github": "https://github.com/lsimmons1832"
+        },
+        {
+            "name": "Sany Yousif",
+            "tagline": "",
+            "bio": "bio goes Here",
+            "photo": "img/students/Sany1.jpg",
+            "alt_photo": "img/students/Sany2.jpg",
+            "linkedin": "https://www.linkedin.com/in/sany-yousif-19a03155/",
+            "portfolio_site": "url",
+            "github": "https://github.com/Sanyyouisf"
+        },
+        {
+            "name": "Marcus Gill",
+            "tagline": "",
+            "bio": "bio goes Here",
+            "photo": "img/students/Marcus1.jpg",
+            "alt_photo": "img/students/Marcus2.jpg",
+            "linkedin": "https://www.linkedin.com/in/jmarcusgill/",
+            "portfolio_site": "url",
+            "github": "https://github.com/jmarcusgill"
+        }
+    ]
+}
