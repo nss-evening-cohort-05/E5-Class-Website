@@ -32,12 +32,12 @@
         },
         {
             "name": "Heather Thacker",
-            "tagline": "short tagline",
-            "bio": "bio goes Here",
+            "tagline": "Daily Bread and Code",
+            "bio": "Enthusiast of community supported agriculture and software.",
             "photo": "img/students/Heather1.jpg",
             "alt_photo": "img/students/Heather2.jpg",
             "linkedin": "https://www.linkedin.com/in/hhthacker",
-            "portfolio_site": "url",
+            "portfolio_site": "https://hhthacker.github.io/",
             "github": "https://github.com/hhthacker"
         },
         {
