@@ -102,12 +102,12 @@
         },
         {
             "name": "Sharon Smith",
-            "tagline": "",
-            "bio": "bio goes Here",
+            "tagline": "So Many Hats",
+            "bio": "I've worn many different hats through my professional career. The common theme: problem-solving, teamwork, collaboration. I'm excited to now join the coding community wearing the Software Developer Hat.",
             "photo": "img/students/Sharon1.jpg",
             "alt_photo": "img/students/Sharon2.jpg",
             "linkedin": "https://www.linkedin.com/in/smithshnash/",
-            "portfolio_site": "",
+            "portfolio_site": "https://shsmith-36f81.firebaseapp.com/#/portfolio",
             "github": "https://github.com/SMITHsharon"
         },
         {
